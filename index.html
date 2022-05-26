@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="font-awesome-5/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <title>Youtube</title>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="logos">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <div class="images">
+                    <img src="2.png" alt="">
+                </div>
+            </div>
+
+            <div class="searchBox">
+                <ul>
+                    <li><input type="text" placeholder="Telusuri"></li>
+                    <li><button><ion-icon name="search-outline"></ion-icon></button></li>
+                    <li><ion-icon name="mic-outline" class="mic"></ion-icon></li>
+                </ul>
+            </div>
+
+            <div class="user">
+                <ul>
+                    <li><ion-icon name="videocam-outline"></ion-icon></li>
+                    <li><ion-icon name="apps-outline"></ion-icon></li>
+                    <li><ion-icon name="notifications-outline"></ion-icon></li>
+                    <li><img src="author-1.png
+                        " alt=""></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Navigation Sidebar -->
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="title">Beranda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="compass-outline"></ion-icon></span>
+                        <span class="title">Eksplorasi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="flash-outline"></ion-icon></span>
+                        <span class="title">Shorts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="albums-outline"></ion-icon></span>
+                        <span class="title">Subscription</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="copy-outline"></ion-icon></span>
+                        <span class="title">Koleksi</span>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="refresh-circle-outline"></ion-icon></span>
+                        <span class="title">History</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="wallet-outline"></ion-icon></span>
+                        <span class="title">Video Anda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="time-outline"></ion-icon></span>
+                        <span class="title">Tonton Nanti</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="thumbs-up-outline"></ion-icon></span>
+                        <span class="title">Video Yang Di Sukai</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="list-outline"></ion-icon></span>
+                        <span class="title">Shorts One Piece</span>
+                    </a>
+                </li>
+
+                <h3>SUBSCRIPTION</h3>
+                <li>
+                    <a href="">
+                        <span class="icon"><img src="author-1.png" alt=""></span>
+                        <span class="title">Online Tutorials</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><img src="author-1.png" alt=""></span>
+                        <span class="title">Easy Tutorial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><img src="author-1.png" alt=""></span>
+                        <span class="title">JavaScript Mastery</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><img src="author-1.png" alt=""></span>
+                        <span class="title">Codding Addict</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><img src="author-1.png" alt=""></span>
+                        <span class="title">Programmer Zaman</span>
+                    </a>
+                </li>
+
+                <h3>LAINNYA DARI YOUTUBE</h3>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="logo-youtube"></ion-icon></span>
+                        <span class="title">Youtube Premium</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="film-outline"></ion-icon></span>
+                        <span class="title">Films</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="game-controller-outline"></ion-icon></span>
+                        <span class="title">Game</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="radio-outline"></ion-icon></span>
+                        <span class="title">Live</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="trophy-outline"></ion-icon></span>
+                        <span class="title">Olahraga</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="settings-outline"></ion-icon></span>
+                        <span class="title">Setelan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="flag-outline"></ion-icon></span>
+                        <span class="title">History laporan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
+                        <span class="title">Bantuan</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><ion-icon name="information-circle-outline"></ion-icon></span>
+                        <span class="title">Kirim Masukan</span>
+                    </a>
+                </li>
+
+                <div class="information">
+                    <a href="">Tentang</a>
+                    <a href="">Pers</a>
+                    <a href="">Hak Cipta</a>
+                    <a href="">Hubungi Kami</a>
+                    <a href="">Kreator</a>
+                    <a href="">Beriklan</a>
+                    <a href="">Developer</a>
+                </div>
+
+                <div class="about">
+                    <a href="">Persyaratan</a>
+                    <a href="">Privasi</a>
+                    <a href="">Kebijakan & Keamanan</a>
+                    <a href="">Cara Kerja Youtube</a>
+                    <a href="">Uji Fitur Baru</a>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="category swiper mySwiper">
+            <div class="category-wrapper swiper-wrapper">
+                <li class="swiper-slide"><a href="">Semua</a></li>
+                <li class="swiper-slide"><a href="">Video Mix</a></li>
+                <li class="swiper-slide"><a href="">Musik</a></li>
+                <li class="swiper-slide"><a href="">Game</a></li>
+                <li class="swiper-slide"><a href="">Live</a></li>
+                <li class="swiper-slide"><a href="">Komedi Sketsa</a></li>
+                <li class="swiper-slide"><a href="">Alam</a></li>
+                <li class="swiper-slide"><a href="">Game Petualangan</a></li>
+                <li class="swiper-slide"><a href="">Memasak</a></li>
+                <li class="swiper-slide"><a href="">Baru Di Upload</a></li>
+                <li class="swiper-slide"><a href="">Ditonton</a></li>
+                <li class="swiper-slide"><a href="">Baru untuk Anda</a></li>
+            </div>
+        </div>
+
+        <div class="content-video">
+            <div class="card">
+                <div class="video">
+                    <video src="video-1.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="video">
+                    <video src="video-2.mp4"></video>
+                </div>
+
+                <div class="title-video">
+                    <img src="author-1.png" alt="">
+                    <div class="titled">
+                        <h3>Technologies in the world</h3>
+                        <div class="owners">
+                            <span>Nuryana N</span>
+                            <span>450rb x ditonton</span>
+                            <span>1 bulan yang lalu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
